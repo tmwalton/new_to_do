@@ -1,0 +1,48 @@
+body {
+  background: #242626;
+}
+
+.input-group {
+	width: 50%;
+	margin-left: 25%;
+}
+
+#input-wrapper {
+	display: block;
+	margin-top: 20px;
+  padding: 30px;
+}
+
+.list-item {
+	width: 50%;
+	display: inline;
+	margin-top: 20px;
+}
+
+li {
+	width: 40%;
+	margin-left: 25%;
+
+	float: left;
+}
+
+.list-button {
+	width: 8%;
+	margin-left: 18px;
+	margin-top: 3px;
+	float: left;
+}
+
+.delete {
+	clear: left;
+}
+
+.delete button {
+	margin-top: 15px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}

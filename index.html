@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <h2>To-Do List</h2>
+
+  <div id="input-wrapper" class="input-group">
+    <input id="input" type="text" class="form-control" placeholder="Enter a new to-do item"></input>
+  </div>
+
+  <div id="list-wrapper">
+    <div class="list-group">
+      <ul id="to-do-list"></ul>
+    </div>
+  </div>
+
+  <div class="text-center delete" id="delete-button">
+		<button id="delete" class="btn">Delete Completed Items</button>
+	</div>
+
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
