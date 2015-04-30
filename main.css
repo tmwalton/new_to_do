@@ -46,3 +46,7 @@ h2 {
   margin-top: 50px;
   color: white;
 }
+
+.list-group-item-success {
+  text-decoration: line-through;
+}
