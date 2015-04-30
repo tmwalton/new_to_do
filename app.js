@@ -73,7 +73,7 @@ $(document).ready(function() {
     .addClass('list-group-item-success').css("text-decoration", "line-through");
   });
 
-  // change status of "complete" items to "uncomplete"
+  // change status of "complete" items to "incomplete"
   $('body').on('click', '.btn-success', function() {
     var uniqueTodo = $(this).parent().children('.list-group-item-success').text();
     Todos[uniqueTodo] = ["incomplete"];
